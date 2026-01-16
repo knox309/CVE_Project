@@ -1,11 +1,21 @@
-# Ignore all JSON and CSV data files
-Data/*.json
-Data/*.csv
+# Ignore Python virtual environment
+venv/
+env/
 
-# Ignore Excel and report files
-*.xlsx
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large data files
+Data/nvdcve-*.json
+Data/cves_*.csv
+
+# Ignore generated reports
 cve_report.csv
 cve_report.xlsx
 
-# Ignore Python virtual environment folder
-venv/
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
