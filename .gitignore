@@ -1,0 +1,11 @@
+# Ignore all JSON and CSV data files
+Data/*.json
+Data/*.csv
+
+# Ignore Excel and report files
+*.xlsx
+cve_report.csv
+cve_report.xlsx
+
+# Ignore Python virtual environment folder
+venv/
